@@ -28,8 +28,7 @@
         <p><%= @user.name %>さんのプロトタイプ</p>
       </h2>
       <div class="user__card">
-        <p><%= @user.name %>さんの投稿一覧</p>
-          <%= render partial: 'prototypes/prototype', collection: @prototypes %>
+        <%= render partial: 'prototypes/prototype', collection: @prototypes %>
       </div>
     </div>
   </div>
